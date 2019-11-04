@@ -19,7 +19,7 @@ def main():
         # "Accept-Language": "zh-Hans-CN, zh-Hans; q=0.8, en-US; q=0.5, en; q=0.3",
         # "Cache - Control": "max - age = 0",
         # "Connection": "Keep - Alive",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0"
     }
     disk_cache = DiskCache(compress=False, expires=timedelta(seconds=1))
     browser_crawler = BrowserCrawler(cache=disk_cache)
